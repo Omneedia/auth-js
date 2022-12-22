@@ -19,7 +19,7 @@
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",
   "types": "dist/module/index.d.ts",
-  "repository": "omneedia/auth-js",
+  "repository": "omneedia/gotrue-js",
   "scripts": {
     "clean": "rimraf dist docs",
     "coverage": "echo \"run npm test\"",
