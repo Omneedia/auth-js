@@ -131,7 +131,7 @@ export class Deferred<T = any> {
 export function decodeJWTPayload(token: string) {
   // Regex checks for base64url format
   const base64UrlRegex = /^([a-z0-9_-]{4})*($|[a-z0-9_-]{3}=?$|[a-z0-9_-]{2}(==)?$)$/i
-  
+
   const parts = token.split('.')
 
   if (parts.length !== 3) {
