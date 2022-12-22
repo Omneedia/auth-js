@@ -1,7 +1,7 @@
 {
   "name": "@omneedia/auth-js",
   "version": "0.0.0-automated",
-  "description": "Isomorphic GoTrue client",
+  "description": "Isomorphic Auth client",
   "keywords": [
     "gotrue",
     "omneedia",
