@@ -1,17 +1,17 @@
 {
-  "name": "@supabase/gotrue-js",
+  "name": "@omneedia/gotrue-js",
   "version": "0.0.0",
   "description": "Isomorphic GoTrue client",
   "keywords": [
     "gotrue",
-    "supabase",
+    "omneedia",
     "auth",
     "authentication"
   ],
-  "homepage": "https://github.com/supabase/gotrue-js",
-  "bugs": "https://github.com/supabase/gotrue-js/issues",
+  "homepage": "https://github.com/omneedia/gotrue-js",
+  "bugs": "https://github.com/omneedia/gotrue-js/issues",
   "license": "MIT",
-  "author": "Supabase",
+  "author": "Omneedia",
   "files": [
     "dist",
     "src"
@@ -19,7 +19,7 @@
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",
   "types": "dist/module/index.d.ts",
-  "repository": "supabase/gotrue-js",
+  "repository": "omneedia/gotrue-js",
   "scripts": {
     "clean": "rimraf dist docs",
     "coverage": "echo \"run npm test\"",
