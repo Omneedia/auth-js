@@ -1,5 +1,5 @@
 {
-  "name": "@omneedia/gotrue-js",
+  "name": "@omneedia/auth-js",
   "version": "0.0.0-automated",
   "description": "Isomorphic GoTrue client",
   "keywords": [
@@ -19,7 +19,7 @@
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",
   "types": "dist/module/index.d.ts",
-  "repository": "omneedia/gotrue-js",
+  "repository": "omneedia/auth-js",
   "scripts": {
     "clean": "rimraf dist docs",
     "coverage": "echo \"run npm test\"",
