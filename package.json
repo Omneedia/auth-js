@@ -8,8 +8,8 @@
     "auth",
     "authentication"
   ],
-  "homepage": "https://github.com/omneedia/gotrue-js",
-  "bugs": "https://github.com/omneedia/gotrue-js/issues",
+  "homepage": "https://github.com/omneedia/auth-js",
+  "bugs": "https://github.com/omneedia/auth-js/issues",
   "license": "MIT",
   "author": "Omneedia",
   "files": [
@@ -19,21 +19,14 @@
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",
   "types": "dist/module/index.d.ts",
-  "repository": "omneedia/gotrue-js",
+  "repository": "omneedia/auth-js",
   "scripts": {
     "clean": "rimraf dist docs",
     "coverage": "echo \"run npm test\"",
     "format": "prettier --write \"{src,test}/**/*.ts\"",
     "build": "genversion src/lib/version.ts --es6 && run-s clean format build:*",
     "build:main": "tsc -p tsconfig.json",
-    "build:module": "tsc -p tsconfig.module.json",
-    "lint": "eslint ./src/**/* test/**/*.test.ts",
-    "test": "run-s test:clean test:infra test:suite test:clean",
-    "test:suite": "jest --runInBand",
-    "test:infra": "cd infra && docker-compose down && docker-compose pull && docker-compose up -d && sleep 30",
-    "test:clean": "cd infra && docker-compose down",
-    "docs": "typedoc src/index.ts --out docs/v2 --excludePrivate --excludeProtected",
-    "docs:json": "typedoc --json docs/v2/spec.json --excludeExternals --excludePrivate --excludeProtected src/index.ts"
+    "build:module": "tsc -p tsconfig.module.json"
   },
   "dependencies": {
     "cross-fetch": "^3.1.5"
